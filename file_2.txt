@@ -1,0 +1,514 @@
+minion2:
+    ----------
+    SSDs:
+    biosreleasedate:
+        12/01/2007
+    biosversion:
+        VirtualBox
+    cpu_flags:
+        - fpu
+        - vme
+        - de
+        - pse
+        - tsc
+        - msr
+        - pae
+        - mce
+        - cx8
+        - apic
+        - sep
+        - mtrr
+        - pge
+        - mca
+        - cmov
+        - pat
+        - pse36
+        - clflush
+        - mmx
+        - fxsr
+        - sse
+        - sse2
+        - syscall
+        - nx
+        - rdtscp
+        - lm
+        - constant_tsc
+        - rep_good
+        - nopl
+        - xtopology
+        - nonstop_tsc
+        - pni
+        - pclmulqdq
+        - monitor
+        - ssse3
+        - cx16
+        - sse4_1
+        - sse4_2
+        - x2apic
+        - popcnt
+        - aes
+        - xsave
+        - avx
+        - rdrand
+        - hypervisor
+        - lahf_lm
+    cpu_model:
+        Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+    cpuarch:
+        x86_64
+    disks:
+        - sda
+        - dm-0
+        - dm-1
+        - loop0
+        - loop1
+        - loop2
+        - loop3
+        - loop4
+        - loop5
+        - loop6
+        - loop7
+    dns:
+        ----------
+        domain:
+        ip4_nameservers:
+            - 10.0.2.3
+        ip6_nameservers:
+        nameservers:
+            - 10.0.2.3
+        options:
+        search:
+        sortlist:
+    domain:
+    fqdn:
+        minion2
+    fqdn_ip4:
+        - 127.0.0.1
+    fqdn_ip6:
+    gid:
+        0
+    gpus:
+        |_
+          ----------
+          model:
+              VirtualBox Graphics Adapter
+          vendor:
+              unknown
+    groupname:
+        root
+    host:
+        minion2
+    hwaddr_interfaces:
+        ----------
+        eth0:
+            08:00:27:10:47:e3
+        eth1:
+            08:00:27:a9:c6:de
+        lo:
+            00:00:00:00:00:00
+    id:
+        minion2
+    init:
+        systemd
+    ip4_interfaces:
+        ----------
+        eth0:
+            - 10.0.2.15
+        eth1:
+            - 192.168.50.12
+        lo:
+            - 127.0.0.1
+    ip6_interfaces:
+        ----------
+        eth0:
+            - fe80::a00:27ff:fe10:47e3
+        eth1:
+            - fe80::a00:27ff:fea9:c6de
+        lo:
+            - ::1
+    ip_interfaces:
+        ----------
+        eth0:
+            - 10.0.2.15
+            - fe80::a00:27ff:fe10:47e3
+        eth1:
+            - 192.168.50.12
+            - fe80::a00:27ff:fea9:c6de
+        lo:
+            - 127.0.0.1
+            - ::1
+    ipv4:
+        - 10.0.2.15
+        - 127.0.0.1
+        - 192.168.50.12
+    ipv6:
+        - ::1
+        - fe80::a00:27ff:fe10:47e3
+        - fe80::a00:27ff:fea9:c6de
+    kernel:
+        Linux
+    kernelrelease:
+        4.4.0-87-generic
+    locale_info:
+        ----------
+        defaultencoding:
+            UTF-8
+        defaultlanguage:
+            en_US
+        detectedencoding:
+            UTF-8
+    localhost:
+        minion2
+    lsb_distrib_codename:
+        xenial
+    lsb_distrib_description:
+        Ubuntu 16.04.3 LTS
+    lsb_distrib_id:
+        Ubuntu
+    lsb_distrib_release:
+        16.09
+    machine_id:
+        1631f6139e373e0b935ca8ce5a4c5685
+    manufacturer:
+        innotek GmbH
+    master:
+        192.168.50.10
+    mdadm:
+    mem_total:
+        992
+    nodename:
+        minion2
+    num_cpus:
+        1
+    num_gpus:
+        1
+    os:
+        Ubuntu
+    os_family:
+        Debian
+    osarch:
+        amd64
+    oscodename:
+        xenial
+    osfinger:
+        Ubuntu-16.04
+    osfullname:
+        Ubuntu
+    osmajorrelease:
+        16
+    osrelease:
+        16.09
+    osrelease_info:
+        - 16
+        - 4
+    path:
+        /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    pid:
+        1568
+    productname:
+        VirtualBox
+    ps:
+        ps -efHww
+    pythonexecutable:
+        /usr/bin/python
+    pythonpath:
+        - /usr/bin
+        - /usr/lib/python2.7
+        - /usr/lib/python2.7/plat-x86_64-linux-gnu
+        - /usr/lib/python2.7/lib-tk
+        - /usr/lib/python2.7/lib-old
+        - /usr/lib/python2.7/lib-dynload
+        - /usr/local/lib/python2.7/dist-packages
+        - /usr/lib/python2.7/dist-packages
+    pythonversion:
+        - 2
+        - 7
+        - 12
+        - final
+        - 0
+    saltpath:
+        /usr/lib/python2.7/dist-packages/salt
+    saltversion:
+        2017.7.2
+    saltversioninfo:
+        - 2017
+        - 7
+        - 2
+        - 0
+    server_id:
+        341203231
+    shell:
+        /bin/sh
+    systemd:
+        ----------
+        features:
+            +PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN
+        version:
+            229
+    uid:
+        0
+    username:
+        root
+    uuid:
+        7abd534b-aa5c-4186-85d4-662869cf80bd
+    virtual:
+        VirtualBox
+    zmqversion:
+        4.1.4
+minion1:
+    ----------
+    SSDs:
+    biosreleasedate:
+        12/01/2006
+    biosversion:
+        VirtualBox
+    cpu_flags:
+        - fpu
+        - vme
+        - de
+        - pse
+        - tsc
+        - msr
+        - pae
+        - mce
+        - cx8
+        - apic
+        - sep
+        - mtrr
+        - pge
+        - mca
+        - cmov
+        - pat
+        - pse36
+        - clflush
+        - mmx
+        - fxsr
+        - sse
+        - sse2
+        - syscall
+        - nx
+        - rdtscp
+        - lm
+        - constant_tsc
+        - rep_good
+        - nopl
+        - xtopology
+        - nonstop_tsc
+        - pni
+        - pclmulqdq
+        - monitor
+        - ssse3
+        - cx16
+        - sse4_1
+        - sse4_2
+        - x2apic
+        - popcnt
+        - aes
+        - xsave
+        - avx
+        - rdrand
+        - hypervisor
+        - lahf_lm
+    cpu_model:
+        Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+    cpuarch:
+        x86_64
+    disks:
+        - sda
+        - dm-0
+        - dm-1
+        - loop0
+        - loop1
+        - loop2
+        - loop3
+        - loop4
+        - loop5
+        - loop6
+        - loop7
+    dns:
+        ----------
+        domain:
+        ip4_nameservers:
+            - 10.0.2.3
+        ip6_nameservers:
+        nameservers:
+            - 10.0.2.3
+        options:
+        search:
+        sortlist:
+    domain:
+    fqdn:
+        minion1
+    fqdn_ip4:
+        - 127.0.0.1
+    fqdn_ip6:
+    gid:
+        0
+    gpus:
+        |_
+          ----------
+          model:
+              VirtualBox Graphics Adapter
+          vendor:
+              unknown
+    groupname:
+        root
+    host:
+        minion1
+    hwaddr_interfaces:
+        ----------
+        eth0:
+            08:00:27:10:47:e3
+        eth1:
+            08:00:27:f4:4a:3e
+        lo:
+            00:00:00:00:00:00
+    id:
+        minion1
+    init:
+        systemd
+    ip4_interfaces:
+        ----------
+        eth0:
+            - 10.0.2.15
+        eth1:
+            - 192.168.50.11
+        lo:
+            - 127.0.0.1
+    ip6_interfaces:
+        ----------
+        eth0:
+            - fe80::a00:27ff:fe10:47e3
+        eth1:
+            - fe80::a00:27ff:fef4:4a3e
+        lo:
+            - ::1
+    ip_interfaces:
+        ----------
+        eth0:
+            - 10.0.2.15
+            - fe80::a00:27ff:fe10:47e3
+        eth1:
+            - 192.168.50.11
+            - fe80::a00:27ff:fef4:4a3e
+        lo:
+            - 127.0.0.1
+            - ::1
+    ipv4:
+        - 10.0.2.15
+        - 127.0.0.1
+        - 192.168.50.11
+    ipv6:
+        - ::1
+        - fe80::a00:27ff:fe10:47e3
+        - fe80::a00:27ff:fef4:4a3e
+    kernel:
+        Linux
+    kernelrelease:
+        4.4.0-87-generic
+    locale_info:
+        ----------
+        defaultencoding:
+            UTF-8
+        defaultlanguage:
+            en_US
+        detectedencoding:
+            UTF-8
+    localhost:
+        minion1
+    lsb_distrib_codename:
+        xenial
+    lsb_distrib_description:
+        Ubuntu 16.04.3 LTS
+    lsb_distrib_id:
+        Ubuntu
+    lsb_distrib_release:
+        16.04
+    machine_id:
+        1631f6139e373e0b935ca8ce5a4c5685
+    manufacturer:
+        innotek GmbH
+    master:
+        192.168.50.10
+    mdadm:
+    mem_total:
+        992
+    nodename:
+        minion1
+    num_cpus:
+        1
+    num_gpus:
+        1
+    os:
+        Ubuntu
+    os_family:
+        Debian
+    osarch:
+        amd64
+    oscodename:
+        xenial
+    osfinger:
+        Ubuntu-16.04
+    osfullname:
+        Ubuntu
+    osmajorrelease:
+        16
+    osrelease:
+        16.04
+    osrelease_info:
+        - 16
+        - 4
+    path:
+        /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    pid:
+        1557
+    productname:
+        VirtualBox
+    ps:
+        ps -efHww
+    pythonexecutable:
+        /usr/bin/python
+    pythonpath:
+        - /usr/bin
+        - /usr/lib/python2.7
+        - /usr/lib/python2.7/plat-x86_64-linux-gnu
+        - /usr/lib/python2.7/lib-tk
+        - /usr/lib/python2.7/lib-old
+        - /usr/lib/python2.7/lib-dynload
+        - /usr/local/lib/python2.7/dist-packages
+        - /usr/lib/python2.7/dist-packages
+    pythonversion:
+        - 2
+        - 7
+        - 12
+        - final
+        - 0
+    saltpath:
+        /usr/lib/python2.7/dist-packages/salt
+    saltversion:
+        2017.7.2
+    saltversioninfo:
+        - 2017
+        - 7
+        - 2
+        - 0
+    server_id:
+        341203228
+    shell:
+        /bin/sh
+    systemd:
+        ----------
+        features:
+            +PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN
+        version:
+            229
+    uid:
+        0
+    username:
+        root
+    uuid:
+        e6975b34-79f3-4b07-ba2e-91ad8e05a07c
+    virtual:
+        VirtualBox
+    zmqversion:
+        4.1.4
